@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "content": "compiled-grid-visualizer",
-  "public_url": "/decomplab-visualizer/",
+  "public_url": "/mono2micro/",
   "bundle_sha256": "f326a7e5f0f69216a7e3f5888c3ab4d4c873706649d24aa7313eeaaa4f15a4cb",
   "records": 374,
   "studies": 6,
