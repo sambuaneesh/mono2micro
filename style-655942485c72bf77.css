@@ -566,6 +566,7 @@ svg {
 .token-reasoning { fill: #e08d3c; background: #e08d3c; }
 .token-output { fill: #d95591; background: #d95591; }
 .token-unknown { fill: #617084; background: #617084; }
+.token-reused { fill: #8b7cf6; background: #8b7cf6; }
 .quality-bar,
 .token-segment {
     transition: width .38s cubic-bezier(.22, .61, .36, 1),
