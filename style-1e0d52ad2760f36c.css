@@ -1551,3 +1551,10 @@ button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-v
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
 }
+
+/* Archived studies: filed under a collapsible folder in the study chooser. */
+.study-archive-folder { display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 14px; border: 1px dashed var(--border, #3a3f4b); border-radius: 10px; background: transparent; color: inherit; cursor: pointer; text-align: left; }
+.study-archive-folder:hover, .study-archive-folder.open { border-color: var(--accent); background: var(--accent-soft); }
+.study-archive-folder small { margin-left: auto; opacity: 0.7; }
+.study-archive-list { display: grid; gap: 8px; padding-left: 16px; border-left: 2px solid var(--border, #3a3f4b); }
+.study-archive-list .study-choice { opacity: 0.85; }
